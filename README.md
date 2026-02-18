@@ -48,7 +48,9 @@ Notes:
   - Footer background color: `#FFFFFF`.
    - Footer alignment tip (Boost Magnific): to center footer content across blocks, add the following transparent placeholder to Footer Block 1 and Footer Block 3 in the theme footer setup:
      
+     ```html
      <p style="text-align: center;"><code aria-hidden="true" style="opacity:0;color:transparent;background:transparent;border:0;pointer-events:none;">.</code></p>
+     ```
      
      This placeholder is fully transparent and non-interactive, ensuring consistent centering when certain regions require content to balance the layout.
 
