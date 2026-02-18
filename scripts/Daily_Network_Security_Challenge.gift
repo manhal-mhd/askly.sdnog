@@ -1,0 +1,306 @@
+// Daily Network Security Challenge (150 questions)
+// Import this file into Moodle Question Bank (GIFT format)
+// Notes:
+// - Explanations are intentionally omitted to prevent exposure in review.
+// - Multi-select questions use fractional grading to prevent "select-all" gaming.
+
+::Security Q001 - Protect legacy manufacturing systems (Select TWO)::Which controls protect manufacturing legacy systems? {~%-50% Jump server ~%-50% Antivirus ~%-50% IDS =%50% Segmentation =%50% Patching}
+
+::Security Q002 - Block signature-based browser exploits::Which solution blocks known signature-based browser exploits? {~DLP ~IDS =IPS ~ACL}
+
+::Security Q003 - Find recent traffic to website in logs::Which command searches for recent traffic to a website in a log file? {~cat | tail ~grep | cat ~head =tail | grep}
+
+::Security Q004 - Communicate vulnerability severity::Which would BEST communicate the severity levels of an organization's vulnerabilities? {=CVSS ~CVE ~SIEM ~SOAR}
+
+::Security Q005 - Remote corporate OS and personal use model::Laptops access corporate OS remotely and allow personal use. What model is this? {~MDM =COPE and VDI ~CYOD and VMs ~BYOD and containers}
+
+::Security Q006 - Connecting accounts across enterprises::Connecting a user account across multiple enterprises is known as: {~MFA ~Remote access =Federation ~SSO}
+
+::Security Q007 - Attack used to move laterally using a hash::Which method was used to compromise a laptop where an attacker moved laterally using a hash? {~Email attachment ~Malware install =Pass-the-hash ~Phishing}
+
+::Security Q008 - First defense against rogue box (Select TWO)::What is the first line of defense against someone plugging in a rogue box? {=%50% Guards =%50% Access control vestibules ~%-50% MAC filtering ~%-50% Zero Trust ~%-50% Network access control}
+
+::Security Q009 - Increase cryptographic security::Which of the following will increase cryptographic security? {~Hashing =High data entropy ~Longer key longevity ~Less computing power}
+
+::Security Q010 - Best SSL certificate type for subdomains::A company wants one SSL certificate that works for store.company.com and future subdomains. Which type? {~Extended validation =Wildcard ~SAN ~Self-signed}
+
+::Security Q011 - Turnstile control type::Which of the following types of controls is a turnstile? {~Corrective ~Detective ~Technical =Physical}
+
+::Security Q012 - European credit card company frameworks (Select TWO)::Which frameworks apply to a credit card company in Europe? {=%50% PCI DSS ~%-50% ISO ~%-50% SOC =%50% GDPR}
+
+::Security Q013 - Day-to-day data management role::Which role is responsible for the day-to-day management of data? {~Data owner =Data custodian ~Data controller ~Data processor}
+
+::Security Q014 - Cloud model for email::An organization wants to move from on-prem email to cloud-based email. Which cloud model? {~IaaS ~MaaS =SaaS ~PaaS}
+
+::Security Q015 - Wireless down near parking lot cause::Wireless is down near the parking lot. What is the most likely reason? {=Jamming ~Unplugged APs ~Rogue AP ~Evil twin}
+
+::Security Q016 - Plan for temporary offices after disaster::Which plan is consulted when setting up temporary offices after a disaster? {~DR plan =BC plan ~Comm plan ~IR plan}
+
+::Security Q017 - Technical control example::Which of the following is a technical control? {~Security training ~Locked door =Firewall ~Security guard}
+
+::Security Q018 - Text asking for credentials (Select TWO)::An employee receives a text asking for credentials. Which techniques are used? {~%-50% Typosquatting ~%-50% Misinformation =%50% Impersonation =%50% Phishing =%50% Smishing}
+
+::Security Q019 - Protect company data on personal devices::Which protects company data on personal devices while addressing employee concerns? {~FDE ~Factory reset ~Enforce PINs =Remote-wiping}
+
+::Security Q020 - Vendor storage array disposal::What should a company request from a vendor disposing of a storage array? {~Inventory list ~Proof of ownership =Certification ~Classification}
+
+::Security Q021 - Background check control type::Which control type is a background check for new employees? {~Technical ~Physical =Administrative ~Corrective}
+
+::Security Q022 - Low-cost VDI login solution::Which is a low-cost solution for factory users to log into VDI? {~Containers ~Laptops ~Workstations =Thin clients}
+
+::Security Q023 - Bluetooth unsolicited messages attack::Which attack involves sending unsolicited messages over Bluetooth? {=Bluejacking ~Bluesnarfing ~Bluebugging ~Blue-mering}
+
+::Security Q024 - Password leaked and used for email::A manager's password leaked from an external site and used to access corporate email. What attack? {~Brute-force =Credential stuffing ~RAT ~Dictionary}
+
+::Security Q025 - Prevent SQL injection::Which is the BEST way to prevent SQL injection attacks? {~Encryption =Input validation ~Hashing ~Digital signatures}
+
+::Security Q026 - Fake pop-up credentials theft::A user entered credentials into a fake pop-up window. What attack occurred? {~DNS poisoning ~Certificate forgery ~SQL injection =Cross-site scripting}
+
+::Security Q027 - Centralize logs and create baseline::Which technology centralizes logs to create a baseline and provide visibility? {=Security information and event management ~A vulnerability Scanner ~A next-generation firewall ~A web application firewall}
+
+::Security Q028 - Availability metrics document::Which document specifies availability metrics for a cloud provider? {~BPA =SLA ~MOU ~NDA}
+
+::Security Q029 - Multiple failed logins with common passwords::A security analyst sees multiple failed login attempts with common passwords. What is this? {=A dictionary attack ~A password-spraying attack ~A rainbow table attack ~A keylogger attack}
+
+::Security Q030 - Remove all iptables rules::A cybersecurity administrator wants to remove all rules from iptables. Which command is BEST? {~# iptables -t mangle -X ~# iptables -Z ~# iptables -P INPUT -j DROP =# iptables -F}
+
+::Security Q031 - Decoy systems term::Decoy systems used to entice threat actors are called: {~Neural network ~Virtual machines =Honeypots ~DNS sinkholes}
+
+::Security Q032 - Control until patch released::What works BEST until a proper patch is released for a discovered vulnerability? {~Corrective ~Detective ~Deterrent =Compensating}
+
+::Security Q033 - Directory traversal indicator::A cybersecurity analyst sees a series of files indicating a directory-traversal attack. What is being seen? {=../../../etc/passwd ~<script>alert(1)</script> ~' OR 1=1 -- ~A binary payload}
+
+::Security Q034 - Zero Trust data plane focus::Which is most relevant for evaluating Zero Trust in the data plane? {~Threat scope reduction =Secured zones ~Subject role ~Adaptive identity}
+
+::Security Q035 - Update OS-level security configurations::Which is BEST to use to update OS-level security configurations? {=CIS benchmarks ~GDPR ~ISO 27001 ~Regional regulations}
+
+::Security Q036 - Tiny flash drives trigger AV::Flash drives have only 512KB and trigger AV alerts. What is the cause? {~Incorrect partitioning ~Driver blocking ~GPO bypass =Malicious drive harvesting credentials}
+
+::Security Q037 - Contain rapidly spreading attack::Which is MOST effective to contain a rapidly spreading attack? {=Honeypot ~Blocklist ~Machine learning ~DNS sinkhole}
+
+::Security Q038 - Identify/prevent data tampering::Which measure identifies and prevents data tampering? {~FTP =FIM ~IPS ~Antivirus}
+
+::Security Q039 - Cloud service for email::Which cloud service moves email to the cloud while maintaining security controls? {~PaaS =SaaS ~DaaS ~IaaS}
+
+::Security Q040 - Strategy for critical legacy app::Which strategy should be adopted first for a critical legacy application? {~Mitigate ~Transfer ~Avoid =Accept}
+
+::Security Q041 - Network to monitor for dark web::Which network should be monitored for traffic to the dark web? {~AIS =Tor ~IoC ~SFTP}
+
+::Security Q042 - Consolidate inbound traffic to clouds::Which component consolidates inbound traffic to multiple cloud environments? {~DNS sinkhole ~Edge computing ~Cloud hot site =Transit gateway}
+
+::Security Q043 - VoIP-associated vulnerabilities (Select TWO)::What are common VoIP-associated vulnerabilities? {~%-50% Tailgating ~%-50% Credential harvesting =%50% SPIM ~%-50% Hopping ~%-50% Phishing =%50% Vishing}
+
+::Security Q044 - Air-gapped data loss path::Which is the most common data loss path for an air-gapped network? {~Bastion host ~Unsecured Bluetooth ~Unpatched OS =Removable devices}
+
+::Security Q045 - Hash collision scenario::A document was replaced with another version that goes unnoticed. What attack is this? {=Collision ~Prepending ~Cryptomalware ~Phishing}
+
+::Security Q046 - Reduce permissions command::Which tool reduces permissions and removes the set-user-ID bit? {~chflags =chmod ~ls ~setuid}
+
+::Security Q047 - Ensure authenticity of company code::A software development manager wants to ensure the authenticity of the code. What is most appropriate? {~Testing input validation ~Performing static code analysis ~Ensuring secure cookies are used =Performing code signing}
+
+::Security Q048 - Physical countermeasures to stop intruders (Select TWO)::Which will provide the BEST physical security countermeasures to stop intruders? {=%50% Mantraps ~%-50% Sensors ~%-50% Signage ~%-50% Lighting ~%-50% Alarms =%50% Fencing}
+
+::Security Q049 - Test account shows logins::A test account used for early detection of attacks shows logins. What is this? {=Password change ~Replay attack ~Vulnerability scan ~Injection attack}
+
+::Security Q050 - Pen test with only documentation::An outside security firm has only been given customer documentation. Which type of testing is this? {~Bug Bounty =Black-box ~White-box ~Gray-box}
+
+::Security Q051 - Cleartext passwords to switches::Plaintext passwords are seen being sent to network switches. What is being observed? {~SSH =Telnet ~SNMP ~SFTP}
+
+::Security Q052 - Block unsanctioned SaaS apps::Which solution blocks unsanctioned high-risk SaaS applications? {=CASB ~VPN ~MFA ~VPC}
+
+::Security Q053 - Strongest web server ciphers (Select TWO)::Enable encryption to the web server with strongest ciphers. Which should be implemented? {=%50% TLSv2 ~%-50% NAT ~%-50% BGP ~%-50% 3DES ~%-50% VLAN =%50% AES}
+
+::Security Q054 - Address cloud diversity::Which aspect addresses concerns about cloud diversity? {=Multiple providers ~Microservices ~Containerization ~Load balancers}
+
+::Security Q055 - SoC tampered or replaced::An incident occurred where a SoC was tampered with or replaced. What occurred? {=Supply-chain attack ~Misconfigured BIOS ~Downgrade attack ~Logic bomb}
+
+::Security Q056 - PII sharing notification::A notification stating PII may be shared with partners. What document is this? {=Privacy notice ~NDA ~MOU ~PUA}
+
+::Security Q057 - Easy deployment in cloud::Which should a systems administrator use to ensure easy deployment of resources in the cloud? {=Infrastructure as code ~Software as a service ~Software-defined networking ~Internet of Things}
+
+::Security Q058 - Validate business involvement in IR::An organization's CSO wants to validate business involvement in the IR plan. Which will be used? {~A bug bounty program ~A red-team engagement =A tabletop exercise ~An external security assessment}
+
+::Security Q059 - Firewall rule set outcome::Which firewall rule set allows DHCP, web, and SFTP, but blocks FTP? {~Rule A ~Rule B =Rule C ~Rule D}
+
+::Security Q060 - Next action after outage::Network switches have been turned off after a service outage. What is the NEXT action? {~Perform updates ~Turn on switches ~Disconnect external =Initiate IR plan}
+
+::Security Q061 - Mitigate plaintext password database theft::A username/password database was posted in plain text. What would mitigate damage in the future? {~Block forum access =Implement Salting and Hashing ~Increase password complexity ~Create DLP controls}
+
+::Security Q062 - 99% CPU on router::A router is experiencing 99% CPU busy. Which is it experiencing? {=Resource exhaustion ~Memory leak ~Buffer overflow ~DDoS attack}
+
+::Security Q063 - Smart generator sending packets::A smart generator's IP is sending packets to an internal file server. Which mitigation is BEST? {~Isolation ~Firewall whitelisting ~Containment =Segmentation}
+
+::Security Q064 - Weakest element in all-traffic VPN::An organization routes all traffic through a VPN. Which is the WEAKEST design element? {~DLP integration =Encrypted VPN traffic not inspected ~Split-tunnel impact ~VPN tunnel hops}
+
+::Security Q065 - MDM for BYOD (Select TWO)::An analyst needs MDM for BYOD to control emails and limit exfiltration. Which would BEST meet these requirements? {~%-50% Geofencing =%50% Full-device encryption ~%-50% Network usage rules ~%-50% Remote control =%50% Containerization ~%-50% Application whitelisting}
+
+::Security Q066 - Risk avoidance example::Which is an example of risk avoidance? {=Not installing new software ~Buying insurance ~Installing updates in production ~No preventive measures}
+
+::Security Q067 - Inspect in-transit files for PII::Which is BEST to inspect in-transit files for PII and credit card data? {~EDR ~IDS =Network DLP ~HIPS}
+
+::Security Q068 - Fence control type::Which control type is a fence with a locked gate? {~Technical =Physical ~Administrative ~Detective}
+
+::Security Q069 - Protect laptop drives with low inconvenience::Which protects laptop hard drives with low user inconvenience? {~DLP =SED ~TPM ~HSM}
+
+::Security Q070 - Roles in token auth standard (Select TWO)::Which roles are part of an authentication standard using security tokens? {=%50% Identity provider ~%-50% Notarized requestor =%50% Service provider ~%-50% Tokenized resource}
+
+::Security Q071 - HA pair for firewall::What does implementing a high availability pair for a firewall do? {~Reduce RTO ~Cut MTTR ~Decrease MTBF =Remove single point of failure}
+
+::Security Q072 - File for memory contents::A forensics firm wants to know what was in memory on a compromised server. Which file should be given? {~Security ~Application ~Syslog =Dump}
+
+::Security Q073 - MFA factors (Select TWO)::A user enters a password and then an authentication code. Which MFA factors are used? {=%50% Something you have ~%-50% Somewhere you are ~%-50% Someone you are ~%-50% Something you are =%50% Something you know ~%-50% Something you can do}
+
+::Security Q074 - Anonymous remote control via download::An attacker gained access through a file download and took command anonymously. What was used? {~Fileless virus ~Logic bomb ~Bot =RAT}
+
+::Security Q075 - Review threat actor TTPs::Which supports the review of tactics, techniques, and protocols (TTPs) of a threat actor? {=MITRE ATT&CK ~Diamond Model ~Research publications ~Cyber Kill Chain}
+
+::Security Q076 - RAID for two disk failures::Which RAID level handles two simultaneous disk failures? {~RAID 5 ~RAID 2 ~RAID 0+1 =RAID 6}
+
+::Security Q077 - Restore after ransomware::Which should be used to restore services to a secure state after ransomware? {~7-day old backup ~Baseline OS =Last known-good configuration ~72-hour old backup}
+
+::Security Q078 - Track devices without signatures::Which solution tracks and monitors devices without relying on signatures alone? {=EDR ~NGFW ~DLP ~HIPS}
+
+::Security Q079 - Reduce data loss from power outages::Which is BEST to reduce risk of data loss from power outages? {=Generator ~Dual supply ~PDU ~Daily backups}
+
+::Security Q080 - Administrative control against malware::Which administrative control would be MOST effective to reduce occurrence of malware execution? {=Security awareness training ~EDR reporting cycle ~Frequency of NIDS Updates ~Change control procedures}
+
+::Security Q081 - Model to analyze threat actors::Which model analyzes and categorizes threat actors to improve IR? {=Diamond Model ~Cyber Kill Chain ~MITRE ATT&CK ~CVSS}
+
+::Security Q082 - Patching legacy systems safely::Which technique provides capability to install patches in non-production and create backups for legacy systems? {~RAID =Virtual machines ~RPO ~Air-gapping}
+
+::Security Q083 - Prevent ex-employees access::Which would have prevented users who left months ago from still having access? {~Password reuse ~SSO =Account audits ~AUP}
+
+::Security Q084 - Credentialed vs uncredentialed scan::What is identified by a credentialed scan but missed by an uncredentialed one? {=Missing patches for third-party software ~Non-IP protocols ~CVSS > 6.9 ~CVEs for printers}
+
+::Security Q085 - International data privacy standard::Which should a CISO read to understand international standards for data privacy? {=GDPR ~PCI DSS ~NIST ~ISO 31000}
+
+::Security Q086 - Non-repudiation in forensics::Which supplies non-repudiation during a forensics investigation? {~Drive duplication ~Contact logging ~Data encryption ~Memory dumping =SHA-2 signature}
+
+::Security Q087 - Ranked likelihood/impact of events::Which contains ranked information on the likelihood and impact of catastrophic events? {~BIA ~Asset register =Risk register ~RTO report}
+
+::Security Q088 - Blue team next after IoC::What will the blue team do after detecting an IoC? {~Contact forensics ~Reconnaissance ~Reimage =Activate runbooks}
+
+::Security Q089 - Monitor vendor security maturity::Which clause helps a company monitor the security maturity of a new vendor? {~AV integration ~Log retention ~Breach clause =Right-to-audit}
+
+::Security Q090 - Correlate events across systems::Which is the BEST way to correlate events from multiple security systems? {=SIEM ~Remove systems ~Syslog appliance ~Modify alerts}
+
+::Security Q091 - Evil-twin login pages::Users must enter credentials on web pages to gain access. Most likely cause? {=An External Access point is engaging in an evil-twin attack. ~Certificates expired on devices ~Users on a blocked VLAN ~Signal on the WAP needs to be increased}
+
+::Security Q092 - Fingerprint a web server::Which tool will a security analyst use to fingerprint a web server? {~ping =curl --head ~nmap -p- ~dig}
+
+::Security Q093 - Secure alternatives (Select THREE)::Which describes insecure services and their secure alternatives? {=%33.3333% Telnet, SSH =%33.3333% HTTP, HTTPS =%33.3333% SNMPv2, SNMPv3 ~%-33.3333% SNMPv1, SNMPv2 ~%-33.3333% Login, rlogin}
+
+::Security Q094 - Secure protocol for payments::Which protocol is MOST secure for a website's shopping cart and credit card payments? {~SNMP ~SFTP ~SSL =TLS}
+
+::Security Q095 - Restrict and monitor web access::Which BEST restricts web access and monitors visited websites? {=Internet proxy ~WAF ~VPN ~Firewall}
+
+::Security Q096 - Staff needed during disruption::A company needs to determine staff required to sustain business during disruption. Which describes this step? {=Capacity planning ~Redundancy ~Geographic dispersion ~Tabletop Exercise}
+
+::Security Q097 - Rules for using company tech::Which document outlines the rules for using company technology? {~NDA ~SLA =AUP ~MOU}
+
+::Security Q098 - SMS asks for bank details::A user received an SMS asking for bank details. What technique is this? {=Smishing ~SPIM ~Spear phishing ~Vishing}
+
+::Security Q099 - Common web app vulnerabilities source::Where are the MOST common web-application vulnerabilities found? {=OWASP ~MITRE ATT&CK ~Cyber Kill Chain ~SDLC}
+
+::Security Q100 - Maximize availability with efficiency::Which maximizes system availability while efficiently utilizing computing power? {=Dynamic resource allocation ~High availability ~Segmentation ~Container security}
+
+::Security Q101 - Merged and tested several times a day::Code is merged and tested automatically several times a day. What is this? {=Continuous integration ~Elasticity ~Stored procedures ~Functional testing}
+
+::Security Q102 - Encoded traversal in URL::What attack is described by 'index.php?page=..2f..2f..2fetc2fpasswd'? {~API ~Request forgery ~SQL injection =Directory traversal}
+
+::Security Q103 - Self-replicating malware::Which type of malware is self-replicating and spreads across a network? {~Virus =Worm ~Trojan ~Rootkit}
+
+::Security Q104 - Optimize IR across cloud consoles::Which can be used to optimize incident response time across different cloud consoles? {=CASB ~CMS ~VPC ~SWG}
+
+::Security Q105 - Prevent reuse and high-risk logins (Select TWO)::Which policies prevent password reuse and high-risk logins? {~%-50% Geotagging ~%-50% Geolocation =%50% History ~%-50% Complexity =%50% Geofencing}
+
+::Security Q106 - Minimize backups to restore::Which backup strategy minimizes the number of backups to restore? {=Full followed by differential ~Incremental ~Delta ~Full followed by incremental}
+
+::Security Q107 - Default credentials exploited::Using 'admin' as both username and password to access a security camera feed is which vector? {~Open service ports =Default credentials ~Typosquatting ~Impersonation}
+
+::Security Q108 - Segment prod and dev in cloud::Which should be used to segment production and development servers in the cloud? {~Screened subnet =VLAN ~VPN ~WAF}
+
+::Security Q109 - US federal controls catalog::Which provides a catalog of security controls for US federal systems? {~ISO 27000 ~GDPR ~PCI DSS =NIST 800-53}
+
+::Security Q110 - Blocked anomalous IP was scanner::An anomalous IP is blocked, but it turns out to be the vulnerability scanner. What is this? {~True positive =False positive ~True negative ~False negative}
+
+::Security Q111 - 2FA not knowledge nor possession::Which is a 2FA method that is NOT something you know or have? {~PKI certificate ~Smart card ~PIN =Facial recognition}
+
+::Security Q112 - Identify hosted web server vulnerabilities::Which would work BEST to help identify potential vulnerabilities in hosted web servers? {~Nslookup ~Nc ~Hping3 =Nmap with service version detection}
+
+::Security Q113 - Properly formatted form input::A visitor must provide properly formatted info in a website field. Which measure is used? {~Code signing ~Form submission =Input validation ~SQL injection}
+
+::Security Q114 - Frameworks for optimal config::Which organization sets frameworks for optimal security configuration? {~PCI DSS ~ISO ~GDPR =NIST}
+
+::Security Q115 - Prevent IP theft by leavers::Which document prevents intellectual property theft by employees who leave? {~CBT ~AUP =NDA ~MOU}
+
+::Security Q116 - Prevent zero-day from public registry::A zero-day was introduced from a public container registry. What is the BEST prevention? {~Vulnerability scan ~IPS =Controlled trusted source ~Dedicated VPC}
+
+::Security Q117 - Safeguard against malicious files on new drive::Which safeguard BEST protects a PC from malicious files on a new storage device? {=Encrypt the disk ~Change default settings ~Firewall rules ~UPS}
+
+::Security Q118 - Human life consideration in data center::Security controls in a data center must include human life considerations. How should controls be set up? {=Safety controls should fail open ~Logging controls should fail open ~Remote access points should fail closed ~Logical Security controls should fail closed}
+
+::Security Q119 - Cloud model with servers/storage/networks::Which cloud model provides clients with servers, storage, and networks but nothing else? {~SaaS ~PaaS ~DaaS =IaaS}
+
+::Security Q120 - Unauthorized individuals despite badge readers::Unauthorized individuals are roaming hallways despite badge readers. What is the cause? {~Phishing ~Identity fraud =Tailgating ~Shoulder surfing}
+
+::Security Q121 - BIOS update vulnerability type::A bulletin recommends a BIOS update. Which vulnerability type is this? {=Firmware ~Virtualization ~OS ~Application}
+
+::Security Q122 - Ready for production after vulnerabilities::Which would BEST help ensure an application is ready after identifying multiple vulnerabilities? {~Obfuscate the source code ~Prevent data exposure queries =Submit the application to QA before releasing it ~Limit the use of third-party libraries}
+
+::Security Q123 - Target high-profile individual::Which type of attack targets a specific, high-profile individual? {~Phishing =Whaling ~Vishing ~Smishing}
+
+::Security Q124 - Notification that documents can't be destroyed::A notification that documents can't be destroyed is a: {~Accountability ~Data breach notification =Legal hold ~Chain of custody}
+
+::Security Q125 - Cost to mitigate greater than value::What is the best risk management decision when mitigation cost is greater than value added? {~Avoid =Accept ~Remediate ~Transfer}
+
+::Security Q126 - Detective control example::Which of the following is a detective control? {~Firewall ~Guard =Security camera ~Encryption}
+
+::Security Q127 - Improve secure coding practices::Best resource for a developer to improve secure coding practices for web applications? {~NIST CSF ~Third-party libraries =OWASP ~Vulnerability scan results}
+
+::Security Q128 - Begin public web server certificate::A public-facing web server needs to ensure. Which step should be taken to begin the process? {~Wildcard creation ~DNS filtering =CSR generation ~Domain validation}
+
+::Security Q129 - Assist breach investigation across network::Which will BEST assist a forensics investigation of a breach that moved through the network? {~Vulnerability scan ~Router sessions ~Packet analyzer =SIEM correlated logs}
+
+::Security Q130 - Departed executive successful logon::A departed executive's account shows successful logons. Which practice would have addressed this? {~A non-disclosure agreement ~Least privilege ~An Acceptable use policy =Offboarding}
+
+::Security Q131 - Protect data while sharing payroll::Which technique protects employee data while sharing payroll scales? {~Encryption =Pseudo-anonymization ~Data masking ~Tokenization}
+
+::Security Q132 - Consequence of many collectors::What is an immediate consequence of authorizing multiple security solutions to collect cloud data? {~SIEM deployment ~Loss of support =Increase in attack surface ~Non-compliance}
+
+::Security Q133 - Approvals/testing before production code::Best configuration to ensure approvals and testing occur before code is introduced into production? {~Impact analysis ~Change control Board ~Regression testing =Branch protection}
+
+::Security Q134 - Control type repairing damage::Repairing damage after an incident is which type of control? {~Detective =Corrective ~Compensating ~Preventive}
+
+::Security Q135 - Secure VLAN access from one location::Which allows secure access to a VLAN from only one location? {=Jump server ~Stateful firewall ~Reverse proxy ~Forward proxy}
+
+::Security Q136 - Greatest concern outsourcing dev::What is the GREATEST concern when outsourcing code development? {~QA ~Privileges =Unknown backdoor ~IP theft}
+
+::Security Q137 - User-friendly MFA::An IT manager wants MFA to be non-disruptive and user friendly. Which technology should be used? {~Email Tokens ~Hardware authentications =Push notifications ~One-time passwords}
+
+::Security Q138 - Lost revenue without data stolen::A store lost revenue after a breach even though no data was stolen. Why? {=Reputation damage ~Leadership changes ~Employee training ~Identity theft}
+
+::Security Q139 - HTTPS certificate mismatch warning::A user gets a certificate mismatch warning only on HTTPS sites. What attack is this? {~Domain hijacking =DNS poisoning ~On-path ~Evil twin}
+
+::Security Q140 - Account used during vacation::A user's account was used while they were on vacation. What occurred? {~Insider threat =Pass-the-hash ~Credential change ~Buffer overflow}
+
+::Security Q141 - Provide secure remote access::Which is used to provide secure remote access to a network? {~VLAN =VPN ~NAT ~DNS}
+
+::Security Q142 - Demonstrate integrity in forensics::Which BEST demonstrates integrity during a forensic investigation? {=Hashing ~Snapshots ~Event logs ~Encryption}
+
+::Security Q143 - Certificate property requirement::Which certificate property meets the requirements for annual rotation and specific wildcard level? {~Option A ~Option B ~Option C =Option D}
+
+::Security Q144 - SSIDs same, impossible travel::SSIDs are the same, DHCP is non-standard, and travel times are impossible. What attack is this? {~DNS poisoning ~Jamming ~Bluesnarfing =Evil twin}
+
+::Security Q145 - Ensure non-repudiation::Which is the BEST method for ensuring non-repudiation? {=Digital certificate ~SSH key ~SSO ~Token}
+
+::Security Q146 - Unauthorized software via SMB/HTTPS::What is the BEST action for unauthorized software communicating via SMB and HTTPS? {=Blocklist ~Block outbound SMB ~Content filter ~Isolate machines}
+
+::Security Q147 - Control traffic between segments::Which should be used to control traffic between network segments? {=ACL ~VLAN ~DMZ ~VPN}
+
+::Security Q148 - Secure SNMP recommendation::Which recommendation secures a device using cleartext authentication? {=SNMPv3 ~SNMPv1 ~Community string ~SNMPv2c}
+
+::Security Q149 - Accountability while escorting::Which holds staff accountable while escorting unauthorized personnel? {~Cameras ~Visitor logs =Badges ~Locks}
+
+::Security Q150 - Wireless redirect to malicious site::A security analyst observes a user connecting to wireless and being redirected to a malicious site. Which attack is this? {~Session replay =Evil twin ~ARP poisoning ~Bluejacking}
+
