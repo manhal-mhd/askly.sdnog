@@ -80,6 +80,10 @@ You can add the HTML content in two common, safe ways. Choose the one that best 
   - Upload images to a public web path your Moodle can serve (e.g., via a repository or theme public assets).
   - Update any `<img src="..."></img>` references in [html/askly-home.html](html/askly-home.html) to point to the new absolute URLs.
 
+Workaround used:
+- We encountered an issue uploading pictures to the Moodle home page. As a workaround, images were uploaded to `wiki.sdnog.sd` and mapped to the home page via absolute URLs.
+- The hero image in [html/askly-home.html](html/askly-home.html) references the wiki-hosted asset. If you later host images locally or on a CDN, update the `src` to your new public URL.
+
 ---
 
 ## Course Setup
