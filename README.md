@@ -126,11 +126,56 @@ Notes:
 
 ---
 
+## Challenge Rules (Ramadan Daily Quizzes)
+- **30 quizzes:** One per day for 30 days.
+- **Availability window:** Each quiz opens daily for 24 hours only.
+- **Hidden grades:** Learners cannot see grades during the challenge; reveal only after the event ends.
+
+How to configure per quiz in Moodle 5.1:
+- In the quiz settings → Availability:
+  - Enable "Open the quiz" with the daily start date/time.
+  - Enable "Close the quiz" exactly 24 hours after open.
+- In the quiz settings → Review options:
+  - During the attempt / Immediately after / Later while the quiz is still open: uncheck "Marks", "Right answer", and any feedback you want hidden.
+  - After the quiz is closed: choose what to reveal (e.g., marks and feedback).
+- In Gradebook setup (optional for extra control):
+  - Put all quizzes in a category (e.g., "Ramadan Challenge") and use "Hide" or "Show more… → Hidden until" to keep results hidden until the final reveal date.
+
+Tip: Create the first day’s quiz with all the correct settings, then use "Duplicate" to speed up creation for the remaining 29 days, updating dates per quiz.
+
+---
+
 ## Custom Scripts (if needed)
 - Place any site-specific JavaScript files in [scripts/](scripts) and host them from a public URL (or include inline JS cautiously).
 - To include JS site‑wide:
   - Site administration → Appearance → Additional HTML → "Before BODY is closed" → include a `<script src="https://your-host/scripts/yourfile.js"></script>` tag, or paste small inline scripts.
 - Keep scripts minimal and avoid interfering with Moodle core or Boost Magnific behaviors.
+
+### Automation & Utilities
+This repository includes helper scripts to streamline setup and assets:
+
+- [scripts/generate_quiz_schedule.py](scripts/generate_quiz_schedule.py): outputs a 30‑day schedule CSV with open/close times and titles.
+
+  Example:
+  ```bash
+  python3 scripts/generate_quiz_schedule.py \
+    --start-date 2026-03-10 \
+    --course-id 3 \
+    --title-prefix "Day {n} – Askly Ramadan Challenge"
+  ```
+
+  Use the CSV to set quiz dates quickly (manually, or via your preferred automation on the Moodle server such as MOOSH or Web Services).
+
+- [scripts/make_question_gif.sh](scripts/make_question_gif.sh): creates a subtle animated "question bang" GIF from a static image using ImageMagick.
+
+  Example:
+  ```bash
+  ./scripts/make_question_gif.sh assets/images/askly-ramadan.png assets/images/question-bang.gif
+  ```
+
+  Ensure ImageMagick (`convert`) is installed on your workstation.
+
+Note: If you automate quiz creation on the Moodle host, consider using MOOSH or Moodle Web Services. Since environments differ, we provide the schedule generator and asset tools here, while the exact provisioning method can follow your site’s standards.
 
 ---
 
