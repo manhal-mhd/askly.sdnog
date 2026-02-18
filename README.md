@@ -44,6 +44,13 @@ Notes:
    - Site administration → Development → Purge caches → Purge all caches.
 3. **Optional configuration:**
    - Theme settings often allow custom SCSS, logo, brand colors, and footers. Adjust to align with Askly’s palette (primary accent: `#C41617`).
+  - Primary interface color: `#232323`.
+  - Footer background color: `#FFFFFF`.
+  - Footer alignment tip (Boost Magnific): to center footer content across blocks, add the following placeholder to Footer Block 1 and Footer Block 3 in the theme footer setup:
+     
+    <p style="text-align: center;"><code style="opacity: 0;">.</code></p>
+     
+    This ensures consistent centering when certain regions require content to balance the layout.
 
 ---
 
