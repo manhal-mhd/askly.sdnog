@@ -155,6 +155,59 @@ We used AI tools to generate some of the Ramadan Challenge pictures and theme‑
 
 ---
 
+## Home Page Design Prompt
+The following prompt was used to generate and refine the home page HTML/CSS and UI/UX decisions.
+
+```text
+I have a draft HTML layout for our 'Askly' platform (the SdNOG Ramadan Challenge), but the UI/UX needs a significant upgrade to look like a modern, professional tech-education platform.
+
+The current code has the basic structure (a hero section, an image column, and a text column), but it lacks proper styling, spacing, and brand integration. Our target audience consists of network and security professionals, so the design needs to be sleek, responsive, and highly readable.
+
+Please update the provided HTML/CSS based on the following UI/UX requirements:
+
+1. Brand Colors & Theme (Dark Mode Preferred):
+
+Background: Implement a dark theme (e.g., #121212 or deep charcoal) to reduce eye strain and give it a 'tech' feel.
+
+Text: Crisp white or light grey (#E0E0E0) for primary readability.
+
+Primary Accent: Use the exact SdNOG red (#C41617) for all primary actions, buttons, hover states, and key highlights.
+
+2. Typography & Hierarchy Refinement:
+
+The current HTML imports many fonts (Roboto, Open Sans, Montserrat, etc.). Please consolidate this. Choose one clean, modern sans-serif font for the body (like Roboto or Inter) and one bold font for headings (like Montserrat). Remove the unused @font-face declarations to improve page load speed.
+
+H1 (<h1 id="iqlvf">): Make "Welcome to Askly – Where Curiosity Meets Opportunity!" much larger, bolder, and visually distinct.
+
+Subtitles: "Learn. Challenge. Win!" should be styled as an eye-catching accent, perhaps using the SdNOG red.
+
+Remove unnecessary <br/> and empty <p> tags that are currently cluttering the code and use CSS margin and padding for spacing instead.
+
+3. Layout & Spacing (Flexbox/Grid):
+
+Ensure the <div id="i89tw" class="row align-items-center"> utilizes proper CSS Flexbox or Grid.
+
+On Desktop: The image should be on the left (or right) taking up 50% width, with the text perfectly vertically centered on the opposite side.
+
+On Mobile: The layout must stack cleanly (image on top, text below) with adequate padding (at least 20px on the sides).
+
+4. Actionable UX Elements:
+
+The image currently links to the course (<a href="https://askly.sdnog.sd/course/view.php?id=3">). Change this into a clear, high-contrast Call-to-Action (CTA) button placed beneath the text description.
+
+The button should say "Start Today's Challenge" and use the #C41617 red with a subtle hover effect (e.g., brightening the red or adding a slight drop shadow).
+
+5. Content Styling (The Rules):
+
+The text explaining the rules ("Every day, we will release a new question...") needs to be broken out of standard <h3> tags.
+
+Style these as Card UI elements or a visually distinct list with icons (e.g., a calendar icon for the daily release, a trophy icon for the winners) to make it scannable.
+
+Please provide the updated HTML with an embedded or external CSS stylesheet that reflects these modern UI/UX principles.
+```
+
+---
+
 ## Maintenance
 - **Editing content:** Update files under [html/](html) and re‑paste into Moodle where originally added.
 - **Adding images:** Place new images in [assets/images/](assets/images) and host them at accessible URLs for Moodle.
