@@ -123,6 +123,16 @@ Notes:
 
 ---
 
+## AI‑Generated Assets
+We used AI tools to generate some of the Ramadan Challenge pictures and theme‑related visuals.
+
+- **Scope:** Hero images, posters, and theme visuals supporting the Askly experience.
+- **Storage:** All final images are consolidated under [assets/images](assets/images).
+- **Compliance:** Ensure assets are original or appropriately licensed; avoid using copyrighted third‑party logos or imagery without permission.
+- **Workflow tip:** Consider saving prompts/version notes alongside assets (e.g., `assets/images/README.md`) to make future iterations easier.
+
+---
+
 ## Maintenance
 - **Editing content:** Update files under [html/](html) and re‑paste into Moodle where originally added.
 - **Adding images:** Place new images in [assets/images/](assets/images) and host them at accessible URLs for Moodle.
