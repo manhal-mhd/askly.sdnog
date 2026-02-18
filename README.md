@@ -82,6 +82,28 @@ You can add the HTML content in two common, safe ways. Choose the one that best 
 
 ---
 
+## Course Setup
+This deployment hides the participants list from learners to improve privacy. Teachers and managers keep visibility.
+
+### Remove participant visibility for students
+- Option A — Site‑wide via role edit:
+  - Site administration → Users → Permissions → Define roles → Edit "Student".
+  - Uncheck capability "View participants" (`moodle/course:viewparticipants`).
+  - Optionally also uncheck "View user profiles" (`moodle/user:viewdetails`) if you want to prevent viewing other users’ profiles.
+  - Save changes and Purge caches.
+- Option B — Per‑course override:
+  - In the course → More → Permissions.
+  - Override the "Student" role: set "View participants" to Prohibit.
+  - Save.
+
+Verification:
+- Log in as a student in the course. The Participants link should not appear, and direct access to `/user/index.php?id=<courseid>` should be denied.
+
+Notes:
+- Staff roles (Teacher, Manager) retain participant visibility by default. Do not change these unless you have a specific need.
+
+---
+
 ## Custom Scripts (if needed)
 - Place any site-specific JavaScript files in [scripts/](scripts) and host them from a public URL (or include inline JS cautiously).
 - To include JS site‑wide:
