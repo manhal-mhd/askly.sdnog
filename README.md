@@ -57,6 +57,15 @@ Notes:
 3. **SMTP setup:**
    - Site administration → Server → Email → Configure `smtphosts`, `smtpuser`, `smtppass`, and related settings so Moodle can send confirmation emails.
 
+### Email Delivery (Relay)
+- **Current setup:** Email sending is relayed via the JINX mail relay.
+- **Recommendation (from Nishal):** Stand up an SdNOG‑owned relay for better control and management, and potentially offer email relay services to the SdNOG community.
+- **Operational tips:**
+  - Publish SPF records to authorize the relay.
+  - Sign outgoing mail with DKIM and enforce DMARC for domain protection.
+  - Monitor bounce/feedback loops and rate limits.
+  - Document credentials/rotation and restrict relay access to trusted sources.
+
 ---
 
 ## Adding Askly Content to Moodle
