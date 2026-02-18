@@ -5,7 +5,7 @@ This repository documents the setup and customization of the Askly platform runn
 ---
 
 ## Overview
-- **Platform:** Moodle
+- **Platform:** Moodle 5.1
 - **Theme:** Boost Magnific → https://moodle.org/plugins/theme_boost_magnific
 - **Auth plugin:** Online Confirm → https://github.com/charbusch/moodle-auth_onlineconfirm
 - **Custom content:** Askly home section and footer HTML
@@ -26,7 +26,7 @@ Notes:
 ---
 
 ## Prerequisites
-- A working Moodle instance (v3.9+ recommended; theme/plugin support varies by Moodle version).
+- Moodle 5.1 instance.
 - Admin access to Site administration.
 - SMTP/mail configured for your Moodle site to send confirmation emails (required by the `auth_onlineconfirm` plugin).
 
